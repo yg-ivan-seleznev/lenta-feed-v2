@@ -309,9 +309,9 @@
 .mc-game-feed__meta {
     position: absolute;
     z-index: 2;
-    right: 12px;
+    right: 20px;
     bottom: max(24px, calc(env(safe-area-inset-bottom, 0px) + 10px));
-    left: 12px;
+    left: 20px;
     display: flex;
     min-height: 58px;
     align-items: center;
@@ -361,7 +361,7 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
-    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.72);
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.86), 0 1px 8px rgba(0, 0, 0, 0.72);
 }
 
 .mc-game-feed__categories {
@@ -370,7 +370,7 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 18px;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.72);
+    text-shadow: 0 4px 18px rgba(0, 0, 0, 0.82), 0 1px 7px rgba(0, 0, 0, 0.68);
 }
 
 .mc-game-feed__play-button {
