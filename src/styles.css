@@ -313,14 +313,14 @@
     bottom: max(24px, calc(env(safe-area-inset-bottom, 0px) + 10px));
     left: 12px;
     display: flex;
-    min-height: 72px;
+    min-height: 58px;
     align-items: center;
     gap: 12px;
-    padding: 8px;
-    border-radius: 14px;
-    background: rgba(42, 42, 44, 0.94);
-    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.48);
-    backdrop-filter: blur(22px);
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    backdrop-filter: none;
 }
 
 .mc-game-feed__meta--skeleton {
@@ -335,6 +335,7 @@
     overflow: hidden;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.14);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.48);
 }
 
 .mc-game-feed__text {
@@ -360,6 +361,7 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.72);
 }
 
 .mc-game-feed__categories {
@@ -368,6 +370,7 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 18px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.72);
 }
 
 .mc-game-feed__play-button {
@@ -382,6 +385,7 @@
     border-radius: 16px;
     background: #6d56fc;
     color: #fff;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.42);
     transition: transform 180ms ease-out;
 }
 
